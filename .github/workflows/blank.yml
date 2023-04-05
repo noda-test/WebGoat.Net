@@ -34,3 +34,4 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+          echo "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".
