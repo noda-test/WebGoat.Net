@@ -15,7 +15,7 @@ namespace WebSite
         protected void btnSubmit_Click(object sender, EventArgs e)
         {
             var connection = new SqlConnection();
-            try
+            try 
             {
                 connection.ConnectionString = ConfigurationManager.ConnectionStrings["ApplicationServices"].ConnectionString;
                 connection.Open();
